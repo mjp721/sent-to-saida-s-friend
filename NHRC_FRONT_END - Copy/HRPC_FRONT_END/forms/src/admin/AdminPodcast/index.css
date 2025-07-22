@@ -1,0 +1,15 @@
+.podact-post-input {
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    box-shadow: none;
+    background-color: #f6f6f6;
+    margin: 7px 0px;
+}
+
+.podact-post-input:focus {
+    border: 1px solid green;
+}

@@ -1,0 +1,75 @@
+.admin-db-container {
+    background-color: #f0f2f5;
+    width: 100%;
+}
+
+.admin-db-items-main-container {
+    padding: 15px 0px 15px 15px;
+    height: 100vh;
+}
+
+
+.hr-line {
+    color: #fff;
+    margin: 0px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 5px;
+}
+
+.admin-db-main-items-container {
+    background-color: transparent;
+    padding: 5px 20px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.admin-db-pages-container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.admin-db-pages-count-img-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.admin-db-pages-count-img {
+    width: 80px;
+    border-radius: 100px;
+    background-color: #f04438;
+    padding: 10px;
+}
+
+.admin-db-pages-count-img1 {
+    width: 80px;
+    border-radius: 100px;
+    background-color: #10b981;
+    padding: 10px;
+}
+
+.admin-db-pages-count-img2 {
+    width: 80px;
+    border-radius: 100px;
+    background-color: #f79009;
+    padding: 10px;
+}
+
+.admin-db-pages-count-img3 {
+    width: 80px;
+    border-radius: 100px;
+    background-color: #6366f1;
+    padding: 10px;
+}
+
+.nav-profile {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav-profile-width {
+    width: 201px !important;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+  font-family: 'Poppins', sans-serif;
+}
+
+.error-and-error-para-text {
+  color: red;
+}
+
+
+
+.personal-details-container {
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 15px;
+  margin: 0px;
+
+}
+
+.all-forms-container {
+  background-image: url('https://wallpaperaccess.com/full/4893732.jpg');
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.all-forms-main-container {
+  max-width: 850px;
+  margin: 0px auto;
+}
+
+.personal-details-container1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  /* background-color: lightgrey; */
+  backdrop-filter: blur(100px);
+  color: azure;
+}
+
+
+.nextBtn {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #416058;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 7px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  outline: none;
+}
+
+.nextBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nextBtn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.nextBtn:hover span {
+  padding-right: 15px;
+}
+
+.nextBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.profile-pic {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-left: 6px;
+  background-size: cover;
+  margin-top: 11px;
+  border: none;
+}
+
+.correct-text {
+  color: #78b13f;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.is-invalid {
+  border: 1px solid orangered !important;
+}
+
+.text-danger {
+  color: orangered !important;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+select {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.model-height {
+  height: 300px !important;
+}
+
+.abc {
+  object-fit: cover !important;
+  padding: 40px;
+
+}

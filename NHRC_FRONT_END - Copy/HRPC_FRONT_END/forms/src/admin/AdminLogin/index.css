@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Pacifico&family=Poppins&display=swap');
+
+
+.admin-login-container {
+    background-image: url('https://wallpaperaccess.com/full/4893732.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin-login-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.admin-login-card-container {
+    background-color: white;
+    max-width: 420px;
+    padding: 30px;
+    margin: 0px auto;
+    align-items: center;
+    box-shadow: rgba(127, 126, 126, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.admin-login-input-container {
+    background-color: transparent;
+    display: flex;
+    padding: 9px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+
+.admin-login-input-container:focus-within {
+    border: 1px solid green;
+    transition: ease 0.5s all;
+}
+
+.admin-login-input-icon-container {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-login-input-icon {
+    font-size: 25px;
+}
+
+.admin-login-input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.admin-login-forget-password-para {
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: end;
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+}
+
+.admin-login-forget-password-para:hover {
+    color: #000;
+}
+
+.admin-login-btn {
+    background: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.admin-or-login-para {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.admin-login-google-button {
+    font-size: 13px;
+}
+
+.admin-login-google-button {
+    border: 2px solid gray;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+}

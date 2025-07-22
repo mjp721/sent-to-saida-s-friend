@@ -1,0 +1,43 @@
+.carousel-container {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

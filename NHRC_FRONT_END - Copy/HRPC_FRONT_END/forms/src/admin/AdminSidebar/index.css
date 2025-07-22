@@ -1,0 +1,95 @@
+.admin-db-side-main-container {
+    padding: 15px 0px 15px 15px;
+    height: 100vh;
+}
+
+.admin-db-items-container {
+    background-color: #3d3d45;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.admin-db-dropdown {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-db-dropdown:hover {
+    border-radius: 5px;
+    background-color: #5c5c60;
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+.admin-db-dropdown-icon {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.admin-db-dropdown-icon-para {
+    font-size: 14px;
+}
+
+.admin-db-collapse-para {
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+    background-color: transparent;
+    padding: 5px;
+    color: #c7c9cc;
+}
+
+.admin-db-collapse-para:hover {
+    background-color: #c7c9cc;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-mobile-text-link {
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.admin-mobile-container {
+    height: 70px;
+    padding: 0px 50px;
+}
+
+.admin-mobile-offcanvas-container {
+    background-color: #e2e2e2;
+    color: #000;
+}
+
+.admin-mobile-offcanvas-icon-container {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.admin-mobile-offcanvas-icon-container:hover {
+    border-radius: 5px;
+    background-color: #717173;
+    cursor: pointer;
+    transition: ease 0.1s all;
+    color: #fff;
+}
+
+.admin-mobile-offcanvas-icon {
+    margin-right: 15px;
+    margin-top: 1px;
+}
+
+.admin-mobile-hr {
+    padding: 4px 5px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+
+.admin-mobile-hr:hover {
+    background-color: #717173;
+    color: #fff;
+
+}

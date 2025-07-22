@@ -1,0 +1,42 @@
+.hr-profile-view-inputs-container {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.hr-profile-view-pic {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.hr-profile-view-label {
+    color: #202124;
+}
+
+.hr-profile-view-input {
+    background-color: #f0f5f7;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    padding: 11px 15px;
+    display: block;
+    color: gray;
+}
+
+.hr-profile-view-input-disabled {
+    background-color: transparent;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid lightgray;
+    box-shadow: none;
+    padding: 11px 15px;
+    display: block;
+    color: gray;
+}
+
+.hr-profile-view-input:focus {
+    background-color: #fff;
+    border: 1px solid #1967d2;
+    transition: ease-in-out 0.3s;
+    color: #000;
+}

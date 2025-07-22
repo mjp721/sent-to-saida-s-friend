@@ -1,0 +1,417 @@
+.home-container {
+    background-image: url('https://wallpaperaccess.com/full/4893732.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-marquee {
+    margin-top: 71px;
+
+}
+
+.home-video-container {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.banner-h600px {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.home-video-text-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+}
+
+.home-video-sub-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+}
+
+.home-video-heading {
+    letter-spacing: 2px;
+}
+
+.home-video-main-heading {
+    letter-spacing: 1.5px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .home-video-main-heading {
+        font-size: 31px;
+    }
+}
+
+.home-video-main-para {
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+
+/* About us  */
+
+.home-aboutus-container {
+    background-color: #E1EBEE;
+    min-height: 500px;
+}
+
+.home-aboutus-heading {
+    letter-spacing: 1px;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.home-aboutus-main-heading {
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.home-aboutus-main-para-one {
+    font-size: 14px;
+    margin: 15px 0px;
+    letter-spacing: 0.5px;
+}
+
+.home-aboutus-main-para-two {
+    letter-spacing: 0.3px;
+    color: gray;
+    line-height: 25px;
+}
+
+/* Service  */
+.service-cotainer {
+    background-color: #fff;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service-img-container {
+    background-color: #3e5280;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.service-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.service-para-sub-container {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: 14px;
+    color: white;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.service-para-heading {
+    font-size: 18px;
+}
+
+.service-para-para {
+    font-size: 13px;
+}
+
+
+/* Events  */
+
+.home-events-container {
+    background-color: #E1EBEE;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-events-small-heading {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+.home-events-semi-para {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 0px 25px 0px;
+    color: gray;
+}
+
+.home-events-para {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 0px;
+    letter-spacing: 0.7px;
+    line-height: 25px;
+}
+
+.home-events-book-now-btn {
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+.home-events-text-container {
+    background-color: transparent;
+    padding-right: 40px;
+}
+
+.home-image-text-para {
+    color: gray;
+    font-size: 14px;
+}
+
+.home-events-main-heading {
+    color: #000;
+    font-weight: 600;
+}
+
+.home-image-text-heading {
+    color: #563d7c;
+    font-weight: 600;
+
+}
+
+.home-events-content-container {
+    background-color: #fff;
+    /* padding: 30px; */
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+.home-events-content-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Featured Article */
+
+.article-small-heading {
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.article-main-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.article-image-container,
+.article-text-container {
+    height: 100%;
+    /* padding: 25px; */
+}
+
+.article-image-main-container {
+    background-color: #E1EBEE;
+    min-height: 350px;
+
+}
+
+.article-image-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.article-image-text-heading {
+    color: #3e5280;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.article-image-text-para {
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.article-image-text-btn {
+    border-radius: 0px !important;
+}
+
+/* Podcast */
+
+.podcast-container {
+    background-color: #3e5280;
+}
+
+.podcast-small-heading {
+    color: #e74747;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.podcast-main-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.podcast-para {
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.podcast-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.podcast-card-small-heading {
+    font-size: 14px;
+    color: #e74747;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.podcast-card-main-heading {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    line-height: 22px;
+}
+
+/* Chapters */
+
+.chapers-swiper-container {
+    min-height: 320px;
+    background-color: transparent;
+}
+
+.swiper {
+    width: 100%;
+    height: 320px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.chapter-text-small-heading {
+    font-weight: 600;
+    font-size: 14px;
+    color: blue;
+    letter-spacing: 0.5px;
+}
+
+.chapter-text-main-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+.chapter-text-para {
+    color: gray;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+
+}
+
+/* WHATSAPP NEWSLETTER */
+
+.news-letter-container {
+    height: 300px;
+    width: 100%;
+
+}
+
+.news-letter-sub-container {
+    background-color: transparent;
+    max-width: 380px;
+    height: 100%;
+}
+
+.news-letter-small-heading {
+    color: whitesmoke;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.news-letter-main-heading {
+    color: #fff;
+}
+
+.news-letter-para {
+    color: #e8e6e6;
+    font-size: 14px;
+
+}
+
+
+
+/* Awards */
+
+.award-container {
+    background-color: transparent;
+}
+
+.award-small-heading {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: blue;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.award-main-heading {
+    font-weight: 700;
+    margin: 0px;
+}
+
+.award-swiper {
+    height: 300px;
+}

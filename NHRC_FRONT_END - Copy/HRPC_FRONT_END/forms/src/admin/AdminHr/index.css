@@ -1,0 +1,75 @@
+.admin-hr-search-input-container {
+    border: 1px solid lightgray;
+    padding: 5px 13px;
+    background-color: white;
+    width: 250px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .admin-hr-search-input-container{
+        width: 200px;
+    }
+}
+
+.admin-hr-search-input-container:focus-within {
+    border: 1px solid green;
+    transition: ease 0.3s all;
+}
+
+.admin-hr-search-input {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0px;
+}
+
+.user-img {
+    width: 45px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.view-link-btn::after {
+    content: '➜';
+}
+
+.verified-filed {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    background-color: #fff;
+    outline: none;
+    padding: 0px 5px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 14px;
+    
+}
+
+.verified-filed:focus {
+    border: 1px solid green;
+    transition: ease 0.3s all;
+}
+
+.categories-filed {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    background-color: #fff;
+    outline: none;
+    padding: 0px 5px;
+    border-radius: 7px;
+    width: 160px;
+    font-size: 14px;
+}
+
+.categories-filed:focus {
+    border: 1px solid green;
+    transition: ease 0.3s all;
+}
+
+.verified-text-size {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

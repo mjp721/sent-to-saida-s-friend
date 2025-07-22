@@ -1,0 +1,10 @@
+.admin-failure-image-container {
+    height: 70%;
+    width: 100%;
+}
+
+.admin-failure-image-height {
+    width: 50%;
+    height: 50vh;
+    object-fit: cover;
+}

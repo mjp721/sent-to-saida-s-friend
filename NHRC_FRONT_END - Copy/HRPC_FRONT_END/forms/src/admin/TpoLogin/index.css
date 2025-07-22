@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Pacifico&family=Poppins&display=swap'); */
+
+
+.tpo-login-container {
+    background-image: url('');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tpo-login-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.tpo-login-card-container {
+    background-color: white;
+    max-width: 420px;
+    padding: 30px;
+    margin: 0px auto;
+    align-items: center;
+    box-shadow: rgba(127, 126, 126, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.tpo-login-input-container {
+    background-color: transparent;
+    display: flex;
+    padding: 9px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+
+.tpo-login-input-container:focus-within {
+    border: 1px solid green;
+    transition: ease 0.5s all;
+}
+
+.tpo-login-input-icon-container {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tpo-login-input-icon {
+    font-size: 25px;
+}
+
+.tpo-login-input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.tpo-login-forget-password-para {
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: end;
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+}
+
+.tpo-login-forget-password-para:hover {
+    color: #000;
+}
+
+.tpo-login-btn {
+    background: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.tpo-or-login-para {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tpo-login-google-button {
+    font-size: 13px;
+}
+
+.tpo-login-google-button {
+    border: 2px solid gray;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+}
